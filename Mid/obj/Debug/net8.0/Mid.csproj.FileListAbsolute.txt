@@ -1,0 +1,14 @@
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\bin\Debug\net8.0\Mid.exe
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\bin\Debug\net8.0\Mid.deps.json
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\bin\Debug\net8.0\Mid.runtimeconfig.json
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\bin\Debug\net8.0\Mid.dll
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\bin\Debug\net8.0\Mid.pdb
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\obj\Debug\net8.0\Mid.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\obj\Debug\net8.0\Mid.AssemblyInfoInputs.cache
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\obj\Debug\net8.0\Mid.AssemblyInfo.cs
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\obj\Debug\net8.0\Mid.csproj.CoreCompileInputs.cache
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\obj\Debug\net8.0\Mid.dll
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\obj\Debug\net8.0\refint\Mid.dll
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\obj\Debug\net8.0\Mid.pdb
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\obj\Debug\net8.0\Mid.genruntimeconfig.cache
+D:\university\university assingnments\Visual Programming Lab\Lab Mid\Mid\obj\Debug\net8.0\ref\Mid.dll
