@@ -1,0 +1,15 @@
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\bin\Debug\Lab 11 activity 3.exe.config
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\bin\Debug\Lab 11 activity 3.exe
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\bin\Debug\Lab 11 activity 3.pdb
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\Lab 11 activity 3.csproj.AssemblyReference.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\MainWindow.g.cs
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\App.g.cs
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\Lab 11 activity 3_MarkupCompile.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\Lab 11 activity 3_MarkupCompile.lref
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\MainWindow.baml
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\Lab 11 activity 3.g.resources
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\Lab_11_activity_3.Properties.Resources.resources
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\Lab 11 activity 3.csproj.GenerateResource.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\Lab 11 activity 3.csproj.CoreCompileInputs.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\Lab 11 activity 3.exe
+D:\university\university assingnments\Visual Programming Lab\Lab 11\Lab 11 activity 3\obj\Debug\Lab 11 activity 3.pdb

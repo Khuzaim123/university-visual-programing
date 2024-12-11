@@ -1,0 +1,24 @@
+﻿<Window x:Class="Lab_11_activity_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_11_activity_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="combo1" HorizontalAlignment="Left" SelectionChanged="change" Margin="136,51,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Item 1"></ComboBoxItem>
+            <ComboBoxItem Content="Item 2"></ComboBoxItem>
+            <ComboBoxItem Content="Item 3"></ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combo2" HorizontalAlignment="Left" SelectionChanged="change" Margin="136,217,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Option A"></ComboBoxItem>
+            <ComboBoxItem Content="Option B"></ComboBoxItem>
+            <ComboBoxItem Content="Option C"></ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="text1" HorizontalAlignment="Left" Margin="400,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="text2" HorizontalAlignment="Left" Margin="400,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
