@@ -32,8 +32,8 @@ namespace Activity_03
 
             protected static List<Student> students = new List<Student>
             {
-                new Student { FirstName = "Khuzaim", LastName = "Adnan", ID = 523, Year = GradeLevel.SecondYear, ExamScores = new List<int> { 99, 82, 81, 79 } },
-                new Student { FirstName = "Salman", LastName = "Khalid", ID = 524, Year = GradeLevel.FirstYear, ExamScores = new List<int> { 88, 90, 92, 85 } },
+                new Student { FirstName = "Khuzaim", LastName = "Adnan", ID = 587, Year = GradeLevel.SecondYear, ExamScores = new List<int> { 99, 82, 81, 79 } },
+                new Student { FirstName = "Salman", LastName = "Khalid", ID = 547, Year = GradeLevel.FirstYear, ExamScores = new List<int> { 88, 90, 92, 85 } },
                 new Student { FirstName = "Bob", LastName = "Johnson", ID = 525, Year = GradeLevel.ThirdYear, ExamScores = new List<int> { 75, 80, 78, 82 } },
                 new Student { FirstName = "Charlie", LastName = "Brown", ID = 526, Year = GradeLevel.FourthYear, ExamScores = new List<int> { 95, 94, 96, 97 } },
                 new Student { FirstName = "David", LastName = "Williams", ID = 527, Year = GradeLevel.SecondYear, ExamScores = new List<int> { 70, 72, 68, 75 } },
