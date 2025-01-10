@@ -1,0 +1,104 @@
+﻿@page "/list"
+
+<h3>Cities List</h3>
+
+<button class="btn btn-primary" @onclick="ToggleCityList">Toggle Cities List</button>
+
+@if (showCities)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Server Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var city in CityList.list)
+            {
+                <tr>
+                    <td>@city.id</td>
+                    <td>@city.name</td>
+                    <td>@city.servername</td>
+                    <td>
+                        <button class="btn btn-secondary" @onclick="() => EditCity(city)">Edit</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteCity(city)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (showModal)
+{
+    <div class="modal show" tabindex="-1" style="display: block;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit City</h5>
+                    <button type="button" class="btn-close" @onclick="CloseModal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="editName">Name</label>
+                        <InputText id="editName" class="form-control" @bind-Value="editCity.name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="editServerName">Server Name</label>
+                        <InputText id="editServerName" class="form-control" @bind-Value="editCity.servername" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" @onclick="CloseModal">Close</button>
+                    <button type="button" class="btn btn-primary" @onclick="SaveCity">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private bool showCities = false;
+    private bool showModal = false;
+    private Cities editCity = new Cities();
+
+    private void ToggleCityList()
+    {
+        showCities = !showCities;
+    }
+
+    private void EditCity(Cities city)
+    {
+        editCity = new Cities
+            {
+                id = city.id,
+                name = city.name,
+                servername = city.servername
+            };
+        showModal = true;
+    }
+
+    private void DeleteCity(Cities city)
+    {
+        CityList.list.Remove(city);
+    }
+
+    private void SaveCity()
+    {
+        var city = CityList.list.FirstOrDefault(c => c.id == editCity.id);
+        if (city != null)
+        {
+            city.name = editCity.name;
+            city.servername = editCity.servername;
+        }
+        showModal = false;
+    }
+
+    private void CloseModal()
+    {
+        showModal = false;
+    }
+}

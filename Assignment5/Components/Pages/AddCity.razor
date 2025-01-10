@@ -1,0 +1,35 @@
+﻿@page "/addcity"
+
+
+<h3>AddCity</h3>
+
+<EditForm Model="@cities" OnValidSubmit="submitbutton">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div>
+        <label for="id">Enter id:</label>
+        <InputNumber id="id" class="form-control" @bind-Value="cities.id" />
+    </div>
+    <div>
+        <label for="name">Enter Name:</label>
+        <InputText id="name" class="form-control" placeholder="Enter name of the City" @bind-Value="cities.name"></InputText>
+    </div>
+    <div>
+        <label for="server">Enter Name:</label>
+        <InputText id="server" class="form-control" placeholder="Enter server name" @bind-Value="cities.servername"></InputText>
+    </div>
+    <br />
+    <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</EditForm>
+
+@code {
+    public Cities cities = new Cities();
+
+    private void submitbutton()
+    {
+        CityList.addcity(cities);
+        cities = new Cities();
+    }
+}
